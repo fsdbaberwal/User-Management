@@ -43,3 +43,48 @@ button:hover {
     margin-top: 20px;
     text-align: left;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input, button {
+        padding: 8px;
+        margin: 3px;
+    }
+
+    img {
+        width: 80px;
+        margin-right: 85%;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    input, button {
+        padding: 5px;
+        margin: 2px;
+    }
+
+    img {
+        width: 60px;
+        margin-right: 80%;
+        margin-bottom: 60px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #userDetails {
+        font-size: 0.9em;
+    }
+}
