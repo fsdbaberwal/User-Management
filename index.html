@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>User Management</h1>
+        <img src="/altf-logo.png" alt="" srcset="">
+        <div class="form-group">
+            <input type="text" id="userId" placeholder="User ID">
+            <input type="text" id="userName" placeholder="Name">
+            <input type="email" id="userEmail" placeholder="Email">
+            <input type="number" id="userAge" placeholder="Age">
+            <button onclick="addUser()">Insert Record</button>
+            <button onclick="updateUser()">Update Record</button>
+            <button onclick="deleteUser()">Delete Record</button>
+            <button onclick="searchUser()">Search Record</button>
+            <button onclick="showAllUsers()">Show All Records</button>
+        </div>
+        <div id="userDetails"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
